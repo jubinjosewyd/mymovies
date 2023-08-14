@@ -1,0 +1,78 @@
+.home-container {
+    display: flex;
+  }
+  
+  .all-movies {
+    width: 100%; 
+    min-height: calc(100vh - 80px);
+    // border-right: 1px solid #fdc827;
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .all-movies .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .all-movies .top h4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-left: 5px solid #fdc827;
+    padding-left: 10px;
+  }
+  
+  .all-movies .top .view-all {
+    color: #fdc827;
+    cursor: pointer;
+  }
+  
+  .all-movies .movies-thumbnail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .all-movies .movies-thumbnail .movie {
+    
+  }
+  
+  .all-movies .movies-thumbnail .movie .cover img {
+    border-radius: 5px;
+  }
+  
+  .all-movies .movies-thumbnail .movie .detail {
+    width: 180px;
+  }
+  
+  .all-movies .movies-thumbnail .movie .detail .name {
+    font-weight: bold;
+    height: 50px;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .popular-movies-theatres {
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    // border-right: 1px solid #fdc827;
+    padding: 20px 0px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .popular-movies {
+    width: 25%;
+    min-height: calc(100vh - 80px);
+    padding: 20px 40px;
+    font-family: "Roboto", sans-serif;
+  }
+  
+
+footer {
+    background-color: #fdc827;
+    height: 60px;
+    text-align: center;
+  }
+  
